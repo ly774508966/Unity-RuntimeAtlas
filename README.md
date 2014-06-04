@@ -13,6 +13,6 @@ I implemented this texture packer based on a [Shadow Map packing technique](http
 stores all needed information for how a map is filled in without needing to store any of the actual textures. This allows the program to unload all assets
 used in an atlas as soon as they are added to the atlas.
 
-#NGUI
+##NGUI
 I stripped all NGUI related code out of this demo, but originally this packer was created for use with NGUI. The actual atlas packer is
 generic enough to be used in any context outside of NGUI.
